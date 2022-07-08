@@ -1,0 +1,33 @@
+body {
+    background: #BBBDF6;
+}
+
+#container {
+    margin: 0 auto;
+    background: #9893DA;
+    height: 15rem;
+    width: 17rem;
+    padding: 1rem;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    text-align: center;
+    color:  #23255A;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#list {
+    width: 12rem;
+    margin: 0 auto;
+}
+
+a {
+    color: #23255A;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul {
+    list-style: circle;
+}
