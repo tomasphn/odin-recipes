@@ -16,18 +16,87 @@ h1 {
     text-align: center;
     color:  #23255A;
     font-family: 'Abril Fatface', cursive;
+    margin: 0;
+}
+
+#hero {
+    margin: 1rem;
 }
 
 #list {
-    width: 12rem;
+    width: 100%;
     margin: 0 auto;
 }
 
-a {
+a, ul, ol {
     color: #23255A;
     font-family: 'Oswald', sans-serif;
 }
 
 ul {
     list-style: circle;
+}
+
+li {
+    margin: 0.01vh;
+}
+
+h2 {
+    text-decoration: underline;
+    margin: 0 1.25rem;
+}
+
+hr {
+    width: 93%;
+    background: #23255A;
+    border: 0.05vh solid #23255A;
+}
+
+#recipe-body {
+    margin: 0 auto;
+    background: #9893DA;
+    height: 65rem;
+    width: 30rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#ingredients, #steps {
+    background: #8a85c9;
+    margin: 1rem 0;
+    width: 22rem;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+#adobo-img, #carbonara-img, #shakshuka-img {
+    width: 19rem;
+    height: 19rem;
+    border: 0.25vh solid #8a85c9;
+    box-shadow: 1px 1px 1px #9893DA;
+    margin-bottom: 1rem;
+}
+
+#adobo-img {
+    background-image: url("images/adobo-img.jpg");
+    background-size: cover;
+    background-position: 20%;
+}
+
+#carbonara-img {
+    background-image: url("images/carbonara-img.jpg");
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+#shakshuka-img {
+    background-image: url("images/shakshuka-img.jpg");
+    background-size: cover;
+    background-position: bottom;
 }
